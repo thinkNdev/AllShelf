@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "175053322369",
+    "firebase_url": "https://allshelf-ce501.firebaseio.com",
+    "project_id": "allshelf-ce501",
+    "storage_bucket": "allshelf-ce501.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175053322369:android:0ed790960924ead6",
+        "android_client_info": {
+          "package_name": "chickenmumani.com.allshelf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175053322369-go4u70r78i79nv8qcp4ikir4vk344jdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chickenmumani.com.allshelf",
+            "certificate_hash": "8a6f60b85fca6cf841cbe378def0f40d0adce406"
+          }
+        },
+        {
+          "client_id": "175053322369-h3cs5avsrhfajhjapvhi6vttbldfcqgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqystOEf_M3J49m3pb1Le7XIQpR_auO04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175053322369-h3cs5avsrhfajhjapvhi6vttbldfcqgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="TheLibraryOfAll" path="." /> <!-- Context.getFilesDir(). -->
+    <cache-path name="TheLibraryOfAll" path="." /> <!-- getCacheDir(). -->
+    <external-path name="TheLibraryOfAll" path="." /> <!-- Environment.getExternalStorageDirectory(). -->
+    <external-files-path name="TheLibraryOfAll" path="." /> <!-- Context#getExternalFilesDir(String) Context.getExternalFilesDir(null). -->
+    <external-cache-path name="TheLibraryOfAll" path="." /> <!-- Context.getExternalCacheDir(). -->
+</paths>

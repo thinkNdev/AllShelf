@@ -1,0 +1,18 @@
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="alarm_allalarm"
+        android:title="전체 알림" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="alarm_messagealarm"
+        android:title="메세지 알림" />
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="alarm_recommend"
+        android:title="관심항목 관련 추천" />
+
+</android.support.v7.preference.PreferenceScreen>

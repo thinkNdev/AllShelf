@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chickenmumani.com.allshelf.SignUp_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signupnamet1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="이름" />
+
+                <EditText
+                    android:id="@+id/signupnameedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signupnamecheck"
+                    android:layout_toRightOf="@+id/signupnamet1"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/signupnamecheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/signupnamepadding" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signupidt1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="아이디" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signupidcheck"
+                    android:layout_toRightOf="@+id/signupidt1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/signupidedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="영어소문자, 숫자 조합 4~8자리"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/signupidcheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/signupnamepadding" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signuppwt1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="비밀번호" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signuppwcheck"
+                    android:layout_toRightOf="@+id/signuppwt1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/signuppwedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text|textPassword" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="영어소대문자, 숫자, 특수문자 조합 8~12자리"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/signuppwcheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/signupnamepadding" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="368dp"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="425dp">
+
+                <TextView
+                    android:id="@+id/signuppwct1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="비밀번호 확인" />
+
+                <EditText
+                    android:id="@+id/signuppwcedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signuppwccheck"
+                    android:layout_toRightOf="@+id/signuppwct1"
+                    android:inputType="text|textPassword" />
+
+                <TextView
+                    android:id="@+id/signuppwccheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/signupnamepadding" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signupemailt1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="이메일" />
+
+                <EditText
+                    android:id="@+id/signupemailedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signupemailcheck"
+                    android:layout_toRightOf="@+id/signupemailt1"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/signupemailcheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:layout_marginRight="@dimen/signupnamepadding"
+                    android:paddingRight="@dimen/signupnamepadding"
+                    android:text="발송" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/signupidtyt1"
+                    android:layout_width="@dimen/signupnamewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/signupnamepadding"
+                    android:text="인증번호" />
+
+                <EditText
+                    android:id="@+id/signupidtyedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/signupidtycheck"
+                    android:layout_toRightOf="@+id/signupidtyt1"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/signupidtycheck"
+                    android:layout_width="@dimen/signupcheckwidth"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/signupnamepadding" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="입력 완료" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/board_recyclerview"
+    android:name="com.tong.android.fragment.CollectionListFragment"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="chickenmumani.com.allshelf.Board_Fragment"
+    tools:listitem="@layout/view_board" >
+</android.support.v7.widget.RecyclerView>

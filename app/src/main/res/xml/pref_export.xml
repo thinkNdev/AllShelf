@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:title="휴대전화에 저장하기">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+
+    <Preference android:title="구글 드라이브에 저장하기">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+
+    <Preference android:title="네이버 N클라우드로 저장하기">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </Preference>
+
+</PreferenceScreen>

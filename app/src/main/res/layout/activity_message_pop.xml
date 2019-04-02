@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chickenmumani.com.allshelf.Message_PopActivity">
+
+    <LinearLayout
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <!-- 타이틀바 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="보낸이 : "/>
+
+            <TextView
+                android:id="@+id/messagePopSender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="솰라솰라"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="받는이 : "/>
+
+            <TextView
+                android:id="@+id/messagePopReciver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="똑딱똑딱"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/messagePopImage"
+                android:layout_marginLeft="10dp"
+                android:background="#fff"
+                android:layout_width="70dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="도서명 : "/>
+
+                    <TextView
+                        android:id="@+id/messagePopBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="아이디어로 먹고살기"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="저자명 : "/>
+
+                    <TextView
+                        android:id="@+id/messagePopPerson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="선종 킴"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="출판사 : "/>
+
+                    <TextView
+                        android:id="@+id/messagePopCompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="붓산대"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="내용"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#fff"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/messagePopContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:text="@string/example_loooooong_text"/>
+
+        </ScrollView>
+
+
+        <View
+            android:background="#66bdbdbd"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <!-- 닫기 버튼 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/logoutYes"
+                android:text="확인"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="messagePopCheck"
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+            <Button
+                android:id="@+id/logoutNo"
+                android:text="삭제"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="messagePopDelete"
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+        </LinearLayout>
+        <!--// 닫기 버튼 -->
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

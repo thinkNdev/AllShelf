@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">모두의 서재</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_navi">NaviActivity</string>
+    <string name="title_activity_export">Export_Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="example_loooooong_text">‘건강’에 대해 새롭게, 다르게 생각하기 사람이 살아가는 데 ‘건강’만큼 중요한 가치가 또 있을까? 현재 건강한 사람은 그 건강을 오래도록 유지하는 일이 중요할 테고, 반대로 건강하지 못한 사람은 잃어버린 건강을 되찾는 일이 절박할 것이다. 특히 부모들은 자녀 건강에 있어서만큼은 아플세라 다칠세라 자나 깨나 마음을 놓을 수 없다.현대사회에서 건강은 한 사람의 몸을 떠나 사회적인 문제이기도 하다. 한 지역의 급격한 환경 변화나 각종 질병들이 빠르게 세계 전체를 뒤흔드는 현대에는 건강을 유지하는 일이 개인의 노력만으로 가능하지 않기 때문이다. 이제 건강은 개인의 치료나 예방의 차원을 넘어 사회적 차원의 보장이 중요해졌다. 그렇다면 우리는 건강을 위해 무엇을 할 수 있을까? 어떤 노력을 해야 할까?한 번이라도 자신의 몸에 대해 제대로 질문을 던져 본 적이 있는지. 병은 왜 생기고, 약은 어떤 작용을 하는지 알기 위해 노력해 본 적이 있는지. 위생이나 생활, 치료 수준이 과거보다 훨씬 나아졌는데도 어째서 새로운 질병이 계속 생겨나는지 궁금증을 품어 본 적은? 왜 지구 한쪽에서는 예방 주사 한 방이면 간단히 피할 수 있는 병 때문에 어린 아이들이 죽어 가는지 고개를 갸웃거려 본 일은? 건강에 관심이 있다고 말하면서도 진정한 건강의 의미에 대해 알아보려는 노력은 뒷전인 경우가 대부분 아닐까?건강에 관심은 있지만 자신과 우리 사회의 건강 상태에 대해서는 잘 모르는 어린이와 부모들에게 건강을 새로운 눈으로 들여다보게 하는 책이 낮은산에서 출간되었다. 『우리는 모두 건강할 권리가 있다!』는 어린이 책에서 다루기 쉽지 않은 묵직한 주제를 과감하게 어린이들과 함께 나누고 고민해 보고자 만든 지식교양서이다. 어린이 독자는 그동안 막연하게 생각해 왔던 자신의 몸과 건강을 다양한 각도로 살펴보고 진지하게 들여다 볼 수 있는 시간을, 부모나 교사를 포함한 성인 독자는 병과 의약품을 둘러싼 진실에 눈뜨고 개인의 몸과 사회와 자연의 건강이 어떻게 이어져 있는지 깨닫는 기회를 갖게 될 것이다.‘건강’에 관한 진실을 마주할 힘을 길러주는 책『우리는 모두 건강할 권리가 있다!』는 약사 이모와 조카 철수가 대화하는 형식에 담아 ‘건강’의 진정한 의미를 어린이 눈높이에서 생각해 볼 수 있게 한 책이다. ‘몸, 병, 약을 둘러싼 건강 이야기’라는 부제를 단 1부는 스스로 균형을 지키는 우리 몸의 원리를 설명하는 것으로 시작해서 병과 몸을 대하는 자세까지 설득력 있게 이야기하고 있다. 책 곳곳에 약을 잘 쓰고 버리는 법, 알레르기 관리법, 스테로이드의 허와 실, 바이러스로 바이러스를 막는 예방주사의 원리 등 실제 생활에 도움이 되는 의학 정보도 풍부하게 들어 있다. 가난한 사람들이나 환자들이야 죽거나 말거나 얼토당토않은 약값을 내세워 자기 이익만을 챙기려 드는 제약 회사의 온갖 행태는 어린이 독자들에게 다소 당혹스러운 정보일 수도 있다. 하지만 자신이 살고 있는 세상의 진실에 눈뜨는 과정에서 느끼는 충격은 의미 있고 건강한 충격일 테다.2부로 들어서면 마치 높은 곳에서 세상을 내려다보듯 시야가 확연히 넓어지는 것을 느낄 수 있다. 1부에서 주로 내 몸과 질병에 관한 새로운 정보와 지식을 얻었다면 2부에서는 생각의 범위를 내가 사는 세상과 자연으로까지 확장하게 된다. 건강이 왜 나 혼자만의 문제가 아니라 사회의 문제인지, 의약품들이 끊임없이 쏟아지는데도 왜 매년 수백만 명이 치료 가능한 병으로 죽어 가는지, 국민평균소득이 미국의 반의반도 안 되는 쿠바가 어째서 미국보다 건강한 나라인지 등등 다양한 시사적인 이슈들을 생각해 볼 수 있다. 광우병, 항생제 사료, 건강 보험 등의 예를 통해서는 다른 생명의 건강을 생각하는 것이 곧 나의 건강을 위한 길임을 깨닫게 될 것이다.저자가 이 책을 쓴 진짜 목적은 어린이들에게 병과 약에 얽힌 불편한 진실을 알리는 것이 아니다. 모든 사람이 똑같이 건강할 권리를 누릴 수 있는 세상을 어린이들 스스로 꿈꿀 수 있도록 하는 것이다. 이 책을 읽는 부모는 아이에게 설명하기 까다로웠던 우리 몸에 관한 의학적 지식을 힘들이지 않고 알려줄 수 있을 뿐만 아니라, 세상을 비판적으로 읽어내고 세상의 이면에 숨겨진 진실을 마주할 수 있는 힘을 길러줄 수 있을 것이다.</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="wredithint">"여기에 리뷰를 작성해주세요! (10자 이상)
+사진 1장을 업로드하셔야 글 작성이 완료됩니다.
+
+[다음과 같은 글을 업로드할 시 다른 사람이 볼 수 없을 수 있습니다.]
+  - 욕설, 비하, 음란물, 개인정보가 포함된 게시물
+  - 지역, 성별 등 갈등을 조장하는 게시물
+  - 홍보 게시물
+
+한번 업로드된 리뷰는 수정만 가능하며, 직접 삭제할 수 없습니다."</string>
+
+    <string name="board_titlehint" >제목을 작성해주세요. (20자 미만)</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_rank__fragment">Rank_Fragment</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="board_toron_hint">토론할 내용을 작성해주세요! (최소 10자 이상)\n\n[다음과 같은 글을 업로드할 시 다른 사람이 볼 수 없을 수 있습니다.]\n   - 욕설, 비하, 음란물, 개인정보가 포함된 게시물\n   - 지역, 성별 등 갈등을 조장하는 게시물\n   - 홍보 게시물\n   \n한번 업로드된 게시물은 직접 삭제할 수 없으니 신중하게 작성해 주십시오.</string>
+    <string name="board_trade_hint" >책 교환 내용을 작성해주세요!\n(최소 10자 이상, 교환할 책에 대한 내용을 꼭 작성해주세요.)\n\n[다음과 같은 글을 업로드할 시 다른 사람이 볼 수 없을 수 있습니다.]\n   - 욕설, 비하, 음란물, 개인정보가 포함된 게시물\n   - 지역, 성별 등 갈등을 조장하는 게시물\n   - 게시판과 관련 없는 게시물(ex. 홍보, 잡담, 등)\n\n한번 업로드된 게시물은 직접 삭제할 수 없으니 신중하게 작성해 주십시오.</string>
+</resources>

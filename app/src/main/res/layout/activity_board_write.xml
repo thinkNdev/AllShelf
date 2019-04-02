@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="chickenmumani.com.allshelf.Review_WriteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/boardWriteProgressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView"
+                android:layout_alignLeft="@+id/textview"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/textView"
+                android:layout_alignStart="@+id/textview"
+                android:layout_below="@+id/button"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:progressDrawable="@drawable/circular_progress_bar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/board_titleedit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:hint="@string/board_titlehint"
+                android:paddingLeft="15dp" />
+
+            <ScrollView
+                android:id="@+id/wrscr"
+                android:layout_width="match_parent"
+                android:layout_height="364dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/board_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="@string/board_trade_hint" />
+            </ScrollView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/wrlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+            <View
+                android:id="@+id/wrview2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border" />
+
+            <View
+                android:id="@+id/wrview1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/border" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/board_write_bookname_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:hint="책을 등록해주세요."
+                    android:paddingLeft="5dp" />
+
+                <ImageButton
+                    android:id="@+id/board_write_bookname_imagebutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="4"
+                    app:srcCompat="@android:drawable/stat_sys_download" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="분류" />
+
+                <RadioGroup
+                    android:id="@+id/board_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checkedButton="@+id/board_classyes"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/board_classyes"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="교환" />
+
+                    <RadioButton
+                        android:id="@+id/board_classno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="토론" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

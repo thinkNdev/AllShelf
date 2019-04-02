@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/book_img"
+        android:layout_width="85dp"
+        android:layout_height="117dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/all_edge"/>
+
+    <TextView
+        android:id="@+id/textView_book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="8dp"
+        android:text="도서명"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_review_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="제목"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView_book_title"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="도서명"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/review_title"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView_book_title"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="40dp"
+        android:hint="50자 이내"
+        android:textSize="20sp"
+        android:background="@null"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="376dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/all_edge">
+
+        <EditText
+            android:id="@+id/review_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="500자 이내"
+            android:background="@null"
+            android:layout_margin="7dp"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/review_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/all_edge">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="공개범위"/>
+
+            <RadioGroup
+                android:id="@+id/review_radio_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전체공개"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"/>
+                <RadioButton
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="비공개"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="댓글허용"/>
+
+            <RadioGroup
+                android:id="@+id/review_radio_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/permission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="허용"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"/>
+                <RadioButton
+                    android:id="@+id/nonpermission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="허용안함"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="43dp"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/temporary_save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="임시저장"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#7030A0"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="저장"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#7030A0"/>
+</RelativeLayout>

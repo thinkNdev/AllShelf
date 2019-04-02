@@ -1,0 +1,12 @@
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.Preference android:title="친구 목록">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </android.support.v7.preference.Preference>
+
+    <android.support.v7.preference.Preference android:title="차단 친구">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </android.support.v7.preference.Preference>
+
+
+</android.support.v7.preference.PreferenceScreen>

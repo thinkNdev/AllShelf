@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start" >
+
+        <include
+            layout="@layout/app_bar_navi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header_navi"
+            app:menu="@menu/activity_navi_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+    <View
+        android:id="@+id/shelfimage_fabimgview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:background="#bb000000"
+        />
+
+    <FrameLayout
+        android:id="@+id/shelf_framelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="150dp">
+
+            <TextView
+                android:id="@+id/shelf_lintxt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@id/shelf_addbookfabsearch"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:text="검색으로 추가"
+                android:textColor="#ffffff"
+                android:visibility="invisible" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/shelf_addbookfabsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_search_black_24dp"
+                android:visibility="invisible"
+                app:backgroundTint="#ffffff"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="80dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/shelf_lintxt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@id/shelf_addbookfabbarcode"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"
+                android:textColor="#ffffff"
+                android:text="바코드 검색으로 추가"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/shelf_addbookfabbarcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_camera_alt_black_24dp"
+                android:visibility="invisible"
+                app:backgroundTint="#ffffff"
+                app:elevation="6dp"
+                app:pressedTranslationZ="12dp" />
+
+
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/shelf_addbookfab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="10dp"
+            app:elevation="6dp"
+            android:src="@drawable/ic_add_white_24dp"
+            />
+
+
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

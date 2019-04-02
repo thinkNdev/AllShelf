@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context="chickenmumani.com.allshelf.Report_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:text="신고하기"/>
+
+    <RadioGroup
+        android:id="@+id/rep_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkedButton="@+id/rep1">
+
+        <RadioButton
+            android:id="@+id/rep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="책과 관련 없는 내용" />
+
+        <RadioButton
+            android:id="@+id/rep2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="광고" />
+
+        <RadioButton
+            android:id="@+id/rep3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="분쟁 조장" />
+
+        <RadioButton
+            android:id="@+id/rep4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="욕설, 음란물" />
+
+        <RadioButton
+            android:id="@+id/rep5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="기타" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/rep_edit"
+        android:layout_width="match_parent"
+        android:background="@drawable/all_edge"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:id="@+id/bookinfo_oolin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/report_can"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorAccent"
+            android:backgroundTint="#ffffff"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="reportcan"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/report_com"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorAccent"
+            android:backgroundTint="#ffffff"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="완료" />
+
+    </RelativeLayout>
+</LinearLayout>

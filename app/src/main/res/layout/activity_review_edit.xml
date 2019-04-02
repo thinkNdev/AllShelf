@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Review_EditActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/edscr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/ededit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="top" />
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/edlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/editere_title"
+                    android:layout_width="358dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@id/editere_editbutton"
+                    android:singleLine = "true"
+                    android:gravity="center_vertical"
+                    android:text="업로드된 사진이 있습니다" />
+
+                <Button
+                    android:id="@+id/editere_editbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="변경"
+                    android:textSize="5sp" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/edview1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/border" />
+
+            <RatingBar
+                android:id="@+id/ed_ratingbar"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="1"
+                android:max="5"
+                android:min="0"
+                android:isIndicator="false" />
+
+
+            <View
+                android:id="@+id/edview2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="공개 범위" />
+
+                <RadioGroup
+                    android:id="@+id/ed_radopen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/ed_radopenall"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="전체공개" />
+
+                    <RadioButton
+                        android:id="@+id/ed_radopenno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="비공개" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="댓글 허용" />
+
+                <RadioGroup
+                    android:id="@+id/ed_radcom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/ed_radcomyes"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="허용" />
+
+                    <RadioButton
+                        android:id="@+id/ed_radcomno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="비허용" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
